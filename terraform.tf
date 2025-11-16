@@ -1,6 +1,6 @@
 terraform {
   required_providers {
-    aws = {
+    my-aws-setup = {
        source = "hashicorp/aws"
        version = "6.21.0"
     }
