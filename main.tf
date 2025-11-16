@@ -1,8 +1,8 @@
-provider "my-aws-setup" {
+provider "aws" {
     region = "us-kanye-west"
 }
 
-resource "my-aws-setup_instance" "test" {
+resource "aws_instance" "test" {
   ami           = "ami-123456"
   instance_type = "t2.microoooo" # invalid type
 }
